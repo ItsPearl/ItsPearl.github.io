@@ -1,5 +1,6 @@
 .navbar-default {
   background-color: #fff;
+  padding-top: 20px;
 }
 
 .brand-bg {
@@ -93,4 +94,10 @@
 
 .login-icon {
   margin-right: 5px;
+}
+
+@media(max-width:767px){
+  .main-headline {
+    font-size: 30px;
+  }
 }
